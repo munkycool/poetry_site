@@ -66,17 +66,19 @@ author:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://social.vivaldi.net/@pirategoddess"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/munkycool"
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
 #      url: "https://twitter.com/"
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/"
+
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
 
-footer:
+#footer:
+#  title: "Artemis Tack"
 #  links:
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"

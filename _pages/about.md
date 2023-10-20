@@ -3,6 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-A writer. That is all.
+A writer. A poet. *And nothing more.*
 
-[DO NOT CLICK ON THIS LINK](/secret/)
+[DO NOT CLICK THIS LINK](/secret/)
