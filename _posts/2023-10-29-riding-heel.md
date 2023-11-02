@@ -1,12 +1,13 @@
 ---
 title: "Riding Heel"
 date: 2023-07-25
+excerpt: "We could see the storm coming from a long ways off"
 ---
 
 We could see the storm coming from a long ways off All we had to do was look up the canyon\
 Now it was just a waiting game\
 The lightning is drawing nearer\
-Time to run for cover, time to saddle up, time to hide away The birds wouldn’t duck for cover for awhile yet, we had time
+Time to run for cover, time to saddle up, time to hide away The birds wouldn't duck for cover for awhile yet, we had time
 
 30 minutes
 

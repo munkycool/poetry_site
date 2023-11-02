@@ -1,0 +1,235 @@
+---
+title: "F-R-E-E-F-A-L-L-I-N-G"
+date: 2023-08-04
+excerpt: "Some enjoy safety, others rain"
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face {
+            font-family: 'homemade apple';
+            src: url(/assets/Fonts/HomemadeApple-Regular.ttf);
+        }
+        .falling-text {
+            font-family: 'homemade apple', cursive;
+            animation: fall 5s infinite;
+        }
+        .moving-text {
+            animation: move 5s infinite;
+        }
+        @keyframes fall {
+            0% {
+                transform: translateY(-75px);
+                opacity: 0;
+            }
+            5% {
+                opacity: .3;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(75px);
+                opacity: 0;
+            }
+        }
+        @keyframes move {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(0px); } /* Adjust this value to change the distance moved */
+            100% { transform: translateY(0); }        
+        }
+        .padding1 {
+            padding: 0px;
+        }
+        .padding2 {
+            padding: 10px;
+        }
+        .padding3 {
+            padding: 20px;
+        }
+        .padding4 {
+            padding: 30px;
+        }
+        .padding5 {
+            padding: 40px;
+        }
+        .padding6 {
+            padding: 50px;
+        }
+        .padding7 {
+            padding: 60px;
+        }
+        .padding8 {
+            padding: 70px;
+        }
+        .padding9 {
+            padding: 80px;
+        }
+        .padding10 {
+            padding: 90px;
+        }
+        .padding11 {
+            padding: 100px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+    <p>
+        Some enjoy safety, others rain<br>
+    </p>
+    <div class="container">
+        <p class="falling-text padding1">
+            F
+        </p>
+        <p class="falling-text padding2">
+            r
+        </p>
+        <p class="falling-text padding3">
+            e
+        </p>
+        <p class="falling-text padding4">
+            e
+        </p>
+        <p class="falling-text padding5">
+            F 
+        </p>
+        <p class="falling-text padding6">
+            a
+        </p>
+        <p class="falling-text padding7">
+            l
+        </p>
+        <p class="falling-text padding8">
+            l
+        </p>
+        <p class="falling-text padding9">
+            i 
+        </p>
+        <p class="falling-text padding10">
+            n
+        </p>
+        <p class="falling-text padding11">
+            g
+        </p>
+    </div>
+    <p class="moving-text">
+        As long as I can remember I've loved cloudy days <br>
+        Even better if the clouds let their burden fall <br>
+        There was a strange comfort in the sound of<br>
+    </p>
+    <div class="container">
+        <p class="falling-text padding1">
+            d
+        </p>
+        <p class="falling-text padding2">
+            r 
+        </p>
+        <p class="falling-text padding3">
+            o
+        </p>
+        <p class="falling-text padding4">
+            p 
+        </p>
+        <p class="falling-text padding5">
+            s
+        </p>
+    </div>
+    <p class="moving-text">
+        A stranger comfort in the ruling of thunder<br>
+    </p>
+    <p class="moving-text">
+        It was cozy inside<br>
+        It made me want to actually get shit done<br>
+        A bedside lamp giving the warmth of a thousand candles <br>
+        Cups of tea, the heat of a thousand fires<br>
+    </p>
+    <p class="moving-text">
+        It usually doesn't rain much on Sno-Shoe Ranch <br>
+        High desert' what they called it<br>
+        It doesn't rain like it used to either<br>
+        Barely enough for substance, let alone indulgence<br>
+    </p>
+    <p class="moving-text">
+        This year was different<br>
+        The streams grew fatter than before, <br>
+        The shit was washed<br>
+    </p>
+    <div class="container">
+        <p class="falling-text padding1">
+            a
+        </p>
+        <p class="falling-text padding2">
+            w
+        </p>
+        <p class="falling-text padding3">
+            a
+        </p>
+        <p class="falling-text padding4">
+            y
+        </p>
+    </div>
+    <p class="moving-text">
+        The flowers were nourished<br>
+    </p>
+    <p class="moving-text">
+        I've always enjoyed walking when water was free falling from the sky <br>
+        Even the rain, frozen as ice, was relished<br>
+        The lightning could strike at a moments notice<br>
+        The uncertainty that fear proved gave me a future, however brief<br>
+    </p>
+    <div class="container">
+        <p class="falling-text padding1">
+            F 
+        </p>
+        <p class="falling-text padding2">
+            r
+        </p>
+        <p class="falling-text padding3">
+            e
+        </p>
+        <p class="falling-text padding4">
+            e
+        </p>
+        <p class="falling-text padding5">
+            F 
+        </p>
+        <p class="falling-text padding6">
+            a
+        </p>
+        <p class="falling-text padding7">
+            l
+        </p>
+        <p class="falling-text padding8">
+            l
+        </p>
+        <p class="falling-text padding9">
+            i
+        </p>
+        <p class="falling-text padding10">
+            n
+        </p>
+        <p class="falling-text padding11">
+            g
+        </p>
+    </div>
+    <p class="moving-text">
+        Some choose comfort, others rain<br>
+    </p>
+<script>
+    window.onload = function() {
+        var paragraphs = document.querySelectorAll('.falling-text');
+        paragraphs.forEach(function(paragraph) {
+            var randomDuration = Math.random() * 10 + 1; // Generate a random number between 1 and 6
+            paragraph.style.animationDuration = randomDuration + 's';
+        });
+    };
+</script>
+</html>
