@@ -1,5 +1,6 @@
 ---
 title: "F-R-E-E-F-A-L-L-I-N-G"
+layout: blank
 date: 2023-08-04
 excerpt: "Some enjoy safety, others rain"
 ---
@@ -12,16 +13,16 @@ excerpt: "Some enjoy safety, others rain"
             font-family: 'homemade apple';
             src: url(/assets/Fonts/HomemadeApple-Regular.ttf);
         }
+        body {
+            text-align: center;
+        }
         .falling-text {
             font-family: 'homemade apple', cursive;
             animation: fall 5s infinite;
         }
-        .moving-text {
-            animation: move 5s infinite;
-        }
         @keyframes fall {
             0% {
-                transform: translateY(-75px);
+                transform: translateY(0px);
                 opacity: 0;
             }
             5% {
@@ -38,10 +39,28 @@ excerpt: "Some enjoy safety, others rain"
                 opacity: 0;
             }
         }
-        @keyframes move {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(0px); } /* Adjust this value to change the distance moved */
-            100% { transform: translateY(0); }        
+        .sliding-text {
+            font-family: "homemade apple", cursive;
+            animation: slide 3s infinite;
+        }
+        @keyframes slide {
+            0% {
+                transform: translateX(0px);
+                opacity: 0;
+            }
+            5% {
+                opacity: .3;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateX(180px);
+                opacity: 0;
+            }
         }
         .padding1 {
             padding: 0px;
@@ -82,6 +101,7 @@ excerpt: "Some enjoy safety, others rain"
         }
     </style>
 </head>
+<body>
     <p>
         Some enjoy safety, others rain<br>
     </p>
@@ -163,16 +183,16 @@ excerpt: "Some enjoy safety, others rain"
         The shit was washed<br>
     </p>
     <div class="container">
-        <p class="falling-text padding1">
+        <p class="sliding-text padding1">
             a
         </p>
-        <p class="falling-text padding2">
+        <p class="sliding-text padding2">
             w
         </p>
-        <p class="falling-text padding3">
+        <p class="sliding-text padding3">
             a
         </p>
-        <p class="falling-text padding4">
+        <p class="sliding-text padding4">
             y
         </p>
     </div>
@@ -223,13 +243,26 @@ excerpt: "Some enjoy safety, others rain"
     <p class="moving-text">
         Some choose comfort, others rain<br>
     </p>
+</body>
 <script>
     window.onload = function() {
-        var paragraphs = document.querySelectorAll('.falling-text');
-        paragraphs.forEach(function(paragraph) {
-            var randomDuration = Math.random() * 10 + 1; // Generate a random number between 1 and 6
-            paragraph.style.animationDuration = randomDuration + 's';
+        var fallingElements = document.querySelectorAll('.falling-text');
+        fallingElements.forEach(function(element) {
+            applyAnimation(element, 'fall');
+        });
+
+        var slidingElements = document.querySelectorAll('.sliding-text');
+        slidingElements.forEach(function(element) {
+            applyAnimation(element, 'slide');
         });
     };
+
+    function applyAnimation(element, animationName) {
+        element.style.animation = 'none'; // Remove existing animation
+        setTimeout(function() {
+            var randomDuration = Math.random() * 10 + 4; // Generate a random number between 4 and 14
+            element.style.animation = `${animationName} ${randomDuration}s infinite`; // Apply new animation
+        }, 0);
+    }
 </script>
 </html>
