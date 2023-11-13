@@ -1,5 +1,5 @@
 ---
-title: "The Wyomging Sage"
+title: "The Wyoming Sage"
 date: 2023-08-12
 excerpt: "The Mountian will always take care of you"
 ---
