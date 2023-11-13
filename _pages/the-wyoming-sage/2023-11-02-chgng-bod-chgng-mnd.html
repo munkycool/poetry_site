@@ -16,21 +16,44 @@ excerpt: "Hey girl, just wanted to call and say that I know change is hard."
         }
         body {
             font-family: 'Lora', serif;
-            font-size: 18px;
+            font-size: 24px;
             text-align: center;
-            padding-left: 150px;
-            padding-right: 150px;
-            padding-top: 100px;
+            padding: 150px;
+            opacity: 1;
+            color: rgb(27, 25, 25);
+        }
+        p {
+            padding: 18px;
+        }
+        .background {
+            position: relative;
+        }
+        .background::before {
+            content: "";
+            background: url(/images/IMG_3369.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            bottom: 100%;
+            opacity: 0.1;
+            z-index: -1;
         }
      </style>
 </head>
-<body>
-    <p>
-        Hey girl, just wanted to call and say that I know change is hard. Man, trust me I know. But you know what, so is staying the same. 
-        In fact, ain't it even more scary? Look man, I love you, and I'm here for you, and I care 'bout you. And you can't keep living like this man. 
-        Someday you're going to snap, and that black bitch's gonna get ya.
-    </p>
-    <p>
+<body class="background">
+    <div class="background"></div>
+    <div>
+        <p>
+            Hey girl, just wanted to call and say that I know change is hard. Man, trust me I know. But you know what, so is staying the same. 
+            In fact, ain't it even more scary? Look man, I love you, and I'm here for you, and I care 'bout you. And you can't keep living like this man. 
+            Someday you're going to snap, and that black bitch's gonna get ya.
+        </p>
+        <p>
             Just as the air cools, so too does it warm<br>
             Waking from her slumber was the Mountain <br>
             Groundsquirels starred for curious onlookers<br>
@@ -60,11 +83,12 @@ excerpt: "Hey girl, just wanted to call and say that I know change is hard."
             The ropes of school had snapped, and the chains of gap-year-bordem had set in <br>
             More people knew Me<br>
             The fuck? Even I was changing<br>
-    </p>
-    <a href="/riding-heel">
-        <p>
-            >>
         </p>
-    </a>
+        <a href="/riding-heel">
+            <p>
+                >>
+            </p>
+         </a>
+    </div>
 </body>
 </html>
