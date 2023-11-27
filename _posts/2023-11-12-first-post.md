@@ -4,13 +4,12 @@ date: 2023-07-29
 excerpt: "Hello world! I can't wait to tell ya'll about me and my adventures"
 ---
 
-This is the first entry on my new blog! I can't belive that I'm starting this up again.
-In the past I've been really bad about starting something and then not finishing it.
-I have a feeling that this time will be different. That this time I'm going to actually
-show my thoughts and feelings to the world.
+Dear Reader,
 
-This year I decided to take a gap year, and what a year it's been.
+Welcome to my blog, welcome to my poetry, and welcome to some of my most intimate thoughts.
+I hope that you, dear reader, enjoy reading this as much as I enjoyed writing this.
 
-Is it depression or boerdom?
+To be honest there's been blood, sweat, and many tears (and no blood) to get here. I hope that ya'll enjoy.
 
-I want to know, but I don't, I can't get into my head. But poetry expands it.
+With love, dearest reader,\
+Artemis
